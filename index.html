@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left-container">
+        <!-- start hamburger menu -->
+        <img src="images/icon-menu.svg" class="menu--" />
+        <div class="nav-container">
+          <nav class="navbar">
+            <img src="images/icon-menu.svg" class="menu" />
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Men</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Women</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <img src="images/icon-menu.svg" class="menu" /> -->
+        <img src="images/logo.svg" />
+        <ul class="header-list nav-menu">
+          <li class="hover-header nav-item" href="#">Collections</li>
+          <li class="hover-header nav-item" href="#">Men</li>
+          <li class="hover-header nav-item" href="#">Women</li>
+          <li class="hover-header nav-item" href="#">About</li>
+          <li class="hover-header nav-item" href="#">Contact</li>
+        </ul>
+      </div>
+
+      <div class="header-right-container">
+        <i class="cart fa badge fa-lg" value="0">&#xf07a;</i>
+
+        <img class="avatar" src="images/image-avatar.png" />
+
+        <div class="cart-box"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="img-container">
+        <div class="slider">
+          <!-- img1 -->
+          <img class="img-primary slide" src="images/image-product-1.jpg" />
+
+          <!-- img2 -->
+          <img
+            class="hidden img-primary slide"
+            src="images/image-product-2.jpg"
+          />
+
+          <!-- img3 -->
+          <img
+            class="hidden img-primary slide"
+            src="images/image-product-3.jpg"
+          />
+
+          <!-- img4 -->
+          <img
+            class="hidden img-primary slide"
+            src="images/image-product-4.jpg"
+          />
+          <img class="next slider-btn" src="images/icon-next.svg" />
+          <img class="prev slider-btn" src="images/icon-previous.svg" />
+        </div>
+
+        <div class="img-secondary-container">
+          <img
+            class="img-secondary"
+            src="images/image-product-1-thumbnail.jpg"
+          />
+          <img
+            class="img-secondary"
+            src="images/image-product-2-thumbnail.jpg"
+          />
+          <img
+            class="img-secondary"
+            src="images/image-product-3-thumbnail.jpg"
+          />
+          <img
+            class="img-secondary"
+            src="images/image-product-4-thumbnail.jpg"
+          />
+        </div>
+      </section>
+
+      <section class="info-container">
+        <p>Sneaker Company</p>
+        <p class="text-bold">Fall Limited Edition Sneakers</p>
+        <div class="par-limited light-gray-text">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </div>
+        <div class="price-container">
+          <ul>
+            <li class="text-bold price">$125.00</li>
+            <li class="orange-bg">50%</li>
+            <li class="light-gray-text">$250.00</li>
+          </ul>
+        </div>
+
+        <div class="minus-plus">
+          <img class="minus" src="images/icon-minus.svg" alt="minus" />
+          <div class="quantity">0</div>
+          <img class="plus" src="images/icon-plus.svg" alt="plus" />
+        </div>
+        <div class="add">Add to cart</div>
+      </section>
+    </div>
+  </body>
+</html>
